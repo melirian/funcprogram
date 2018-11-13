@@ -1,0 +1,3 @@
+(define (atoms x)
+  (if(pair? x) (length x) 1))
+(atoms (list 1 2 3 4 5))
